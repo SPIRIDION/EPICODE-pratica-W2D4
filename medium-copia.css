@@ -1,0 +1,398 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 8%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 92%;
+}
+
+#super-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#sezione-principale {
+  height: 140%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sidebar {
+  height: 140%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #d8d3d3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#container-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0.1em 0.05em 0.6em rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  height: 50%;
+  margin-left: 6.5em;
+}
+
+#nav-buttons {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 6.5em;
+}
+
+.nav-button {
+  background-color: white;
+  border: none;
+}
+
+#nav-input {
+  border: 1px solid #A0A0A0;
+  border-radius: 1.5em;
+  padding: 0.5em 0 0.5em 1em;
+}
+
+#nav-profile-button {
+  border: none;
+  color: white;
+  background-color: #F4511E;
+  border-radius: 1em;
+  padding: 0.4em 0.7em;
+}
+
+#topbar-articoli {
+  height: 7%;
+  width: 75%;
+  display: flex;
+  align-items: end;
+  border-bottom: 1px solid #d8d3d3;
+}
+
+#topbar-articoli-button,
+#topbar-articoli-button-evidenziato {
+  border: none;
+  background-color: white;
+}
+
+#topbar-articoli-button-evidenziato {
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+#articoli {
+  height: 90%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.articolo {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-immagine-articolo {
+  height: 70%;
+  width: 30%;
+}
+
+.container-testo-articolo {
+  height: 80%;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.immagine-articolo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-autore-articolo {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.img-autore-articolo {
+  height: 80%;
+}
+
+.testo-autore-articolo {
+  margin: 0 0 0 0.7em;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.container-titolo-articolo {
+  height: 30%;
+  width: 100%;
+}
+
+.titolo-articolo {
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+.container-specifico-testo-articolo {
+  height: 20%;
+  width: 100%;
+}
+
+.testo-articolo {
+  margin: 0;
+  font-size: 0.75em;
+  color: #A0A0A0;
+}
+
+.footer-articolo {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-articolo {
+  font-size: 0.7em;
+  color: #A0A0A0;
+}
+
+.button-articolo {
+  border: none;
+  background-color: white;
+}
+
+.articolo-sidebar-header {
+  height: 25%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #d8d3d3;
+}
+
+#logo-articolo-sidebar {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.img-articolo-sidebar {
+  height: 50%;
+}
+
+#testo-logo-articolo-sidebar {
+  color: #A0A0A0;
+  font-size: 1.1em;
+  margin: 0 0.1em;
+}
+
+#contenitore-testo-articolo-sidebar {
+  width: 100%;
+  height: 20%;
+}
+
+#testo-articolo-sidebar {
+  margin: 0;
+  text-align: center;
+}
+
+#contenitore-button-articolo-sidebar {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  justify-content: center;
+}
+
+#button-articolo-sidebar {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2em;
+  background-color: white;
+  border: 1px solid #A0A0A0;
+  cursor: pointer;
+}
+
+#twitter-logo-button-articolo-sidebar {
+  height: 70%;
+}
+
+.testo-twitter-button {
+  margin: 0;
+}
+
+#contenitore-footer-articolo-sidebar {
+  width: 100%;
+  height: 10%;
+}
+
+#footer-articolo-sidebar {
+  color: #A0A0A0;
+  text-decoration: underline;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.articolo-sidebar-topics {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container-buttons-sidebar-topics {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  align-content: center;
+}
+
+.button-sidebar-topics {
+  background-color: #d8d3d3;
+  border: none;
+  padding: 1em 1.2em;
+  border-radius: 2em;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+.articolo-sidebar-follow {
+  height: 24%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container-titolo-sezione-follow {
+  height: 15%;
+  width: 100%;
+}
+
+#titolo-sezione-follow {
+  margin: 0;
+}
+
+#container-profili-sezione-follow {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profilo {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foto-profilo {
+  height: 100%;
+}
+
+.info-profilo {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 0.5em;
+}
+
+.nome-profilo,
+.attività-profilo {
+  margin: 0;
+  font-size: 0.7em;
+  color: #A0A0A0;
+}
+
+.nome-profilo {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: black;
+}
+
+.bottone-follow {
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.5em 0.7em;
+  border-radius: 2em;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+.articolo-sidebar-follow {
+  width: 50%;
+  height: 20%;
+  display: flex;
+}
+
+.articolo-sidebar-elementi-salvati {
+  height: 20%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container-elementi-salvati {
+  width: 100%;
+  height: 20%;
+}
+
+.articolo-sidebar-footer-buttons {
+  height: 5%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  gap: 0.5em;
+}
+
+.sidebar-footer-button {
+  background-color: white;
+  border: none;
+  color: #A0A0A0;
+  margin: 0;
+  cursor: pointer;
+}
